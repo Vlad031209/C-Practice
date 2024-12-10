@@ -1,0 +1,15 @@
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\bin\Debug\net9.0\Task8.exe
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\bin\Debug\net9.0\Task8.deps.json
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\bin\Debug\net9.0\Task8.runtimeconfig.json
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\bin\Debug\net9.0\Task8.dll
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\bin\Debug\net9.0\Task8.pdb
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\obj\Debug\net9.0\Task8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\obj\Debug\net9.0\Task8.AssemblyInfoInputs.cache
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\obj\Debug\net9.0\Task8.AssemblyInfo.cs
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\obj\Debug\net9.0\Task8.csproj.CoreCompileInputs.cache
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\obj\Debug\net9.0\Task8.sourcelink.json
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\obj\Debug\net9.0\Task8.dll
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\obj\Debug\net9.0\refint\Task8.dll
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\obj\Debug\net9.0\Task8.pdb
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\obj\Debug\net9.0\Task8.genruntimeconfig.cache
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\Task8\obj\Debug\net9.0\ref\Task8.dll

@@ -1,0 +1,15 @@
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\bin\Debug\net9.0\HW2Task13.exe
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\bin\Debug\net9.0\HW2Task13.deps.json
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\bin\Debug\net9.0\HW2Task13.runtimeconfig.json
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\bin\Debug\net9.0\HW2Task13.dll
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\bin\Debug\net9.0\HW2Task13.pdb
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\obj\Debug\net9.0\HW2Task13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\obj\Debug\net9.0\HW2Task13.AssemblyInfoInputs.cache
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\obj\Debug\net9.0\HW2Task13.AssemblyInfo.cs
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\obj\Debug\net9.0\HW2Task13.csproj.CoreCompileInputs.cache
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\obj\Debug\net9.0\HW2Task13.sourcelink.json
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\obj\Debug\net9.0\HW2Task13.dll
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\obj\Debug\net9.0\refint\HW2Task13.dll
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\obj\Debug\net9.0\HW2Task13.pdb
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\obj\Debug\net9.0\HW2Task13.genruntimeconfig.cache
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW2Task13\obj\Debug\net9.0\ref\HW2Task13.dll

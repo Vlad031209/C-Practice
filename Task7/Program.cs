@@ -1,18 +1,41 @@
-﻿int[] arr = new int[5];
+﻿int n = 10;
 
-arr[0] = 5;
-arr[1] = 7;
-arr[2] = 5;
-arr[3] = 4;
-arr[4] = 3;
+int[] array = { 2, 5, 4, 7, 8, 35, 1, 3, 8, 5 };
 
-Console.WriteLine(arr[0]);
-Console.WriteLine(arr[1]);
-Console.WriteLine(arr[2]);
-Console.WriteLine(arr[3]);
-Console.WriteLine(arr[4]);
+int i = 0;
 
-int[] arr2 = new int[5] { 1, 2, 3, 4, 5 };
+int max = array[i]; 
+
+while (i < n)
+{
+    if (max < array[i])
+    {
+        max = array[i]; 
+    }
+    i++;
+}
+Console.WriteLine(max); 
 
 
-int[] arr3 = { 1, 2, 3, 4, 5 };
+max = array[0]; 
+for (int j = 0; j < n; j++)
+{
+    if (max < array[j])
+    {
+        max = array[j]; 
+    }
+}
+
+Console.WriteLine(max); 
+
+
+max = array[0]; 
+foreach (int e in array)
+{
+    if (max < e)
+    {
+        max = e; 
+    }
+}
+
+Console.WriteLine(max); 
