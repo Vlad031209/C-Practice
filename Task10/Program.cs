@@ -1,11 +1,27 @@
 ﻿using System;
 using static System.Console;
 
-Clear();
+Clear();  
 
-double Formula(int a, int b, int c, int d)
+void ZeroEvenElements(int[] arr)
 {
-    return a * b / (c + d); 
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i] % 2 == 0)
+        {
+            arr[i] = 0;
+        }
+    }
 }
 
-Write(Formula(2, 3, 1, 2)); 
+void PrintArray(int[] arr)
+{
+    foreach (int e in arr)
+    {
+        Write($"{e} ");
+    }
+}
+
+int[] array = [1, 2, 3, 4, 5];
+ZeroEvenElements(array);
+PrintArray(array);
