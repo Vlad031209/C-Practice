@@ -1,17 +1,41 @@
 ﻿using System;
 using static System.Console;
 
-Clear();
+Clear(); 
 
+Write("Введите числа: "); 
+int[] array = GetArrayFromString(ReadLine()); 
 
-int[] RandomElements(int size)
+int[] GetArrayFromString(string stringArray)
 {
-    int[] result = new int[size]; 
-    for (int i = 0; i < size; i++)
+    string[] numS = stringArray.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+    int[] result = new int[numS.Length];
+
+    for (int i = 0; i < result.Length; i++)
     {
-        result[i] = new Random().Next(0, 2); 
-    } 
+        result[i] = int.Parse(numS[i]); 
+    }  
     return result; 
 }
 
-WriteLine(String.Join(",", RandomElements(8)));
+int[] MultiplicationOfElements(int[] array)
+{
+    int[] answer_array = new int[(array.Length + 1) / 2]; 
+    int last_index = array.Length - 1;
+
+    for (int i = 0; i < array.Length / 2; i++)
+    {
+        answer_array[i] = array[i] * array[last_index];
+        last_index -= 1;
+    }
+
+    // If the array length is odd, the middle element remains unchanged
+    if (array.Length % 2 != 0)
+    {
+        answer_array[answer_array.Length - 1] = array[array.Length / 2];
+    }
+
+    return answer_array;
+}
+
+Write($"[{string.Join(", ", array)}] -> [{string.Join(", ", MultiplicationOfElements(array))}]");

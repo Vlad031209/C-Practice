@@ -1,0 +1,15 @@
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\bin\Debug\net9.0\HW5Task.exe
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\bin\Debug\net9.0\HW5Task.deps.json
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\bin\Debug\net9.0\HW5Task.runtimeconfig.json
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\bin\Debug\net9.0\HW5Task.dll
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\bin\Debug\net9.0\HW5Task.pdb
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\obj\Debug\net9.0\HW5Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\obj\Debug\net9.0\HW5Task.AssemblyInfoInputs.cache
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\obj\Debug\net9.0\HW5Task.AssemblyInfo.cs
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\obj\Debug\net9.0\HW5Task.csproj.CoreCompileInputs.cache
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\obj\Debug\net9.0\HW5Task.sourcelink.json
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\obj\Debug\net9.0\HW5Task.dll
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\obj\Debug\net9.0\refint\HW5Task.dll
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\obj\Debug\net9.0\HW5Task.pdb
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\obj\Debug\net9.0\HW5Task.genruntimeconfig.cache
+C:\Users\vlad_\OneDrive\Рабочий стол\C# education\HW5Task\obj\Debug\net9.0\ref\HW5Task.dll
