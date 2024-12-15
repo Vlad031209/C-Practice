@@ -18,5 +18,28 @@ int[] GetArrayFromString(string stringArray)
     return result;
 }
 
+int[] DeletingNegNums(int[] array)
+{
+    int count = 0;
 
-WriteLine($"[{string.Join(", ", array)}]");
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i] > 0) count++;
+    }
+
+    int[] answer = new int[count];
+    int j = 0;
+
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i] > 0)
+        {
+            answer[j] = array[i];
+            j++;
+        }
+    }
+
+    return answer;
+}
+
+Write($"[{string.Join(", ", DeletingNegNums(array))}]"); 
