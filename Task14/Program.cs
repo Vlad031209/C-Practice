@@ -3,27 +3,45 @@ using static System.Console;
 
 Clear();
 
-
-
-void ConvertToBinary(int num)
+int[] GetArray(int size)
 {
-    string code = ""; 
-    while (num > 0)
-    {
-        if (num % 2 != 0) 
-        {
-            code += 1; 
-            num /= 2;
-        }
-        else 
-        {
-            code += 0; 
-            num /= 2; 
-        }
-    } 
-    string rl_code = new string(code.Reverse().ToArray());
+    int[] rl_array = new int[size]; 
 
-    Write(rl_code);
+    Random rnd = new Random(); 
+
+    for(int i = 0; i < size; i++)
+    {
+        rl_array[i] = rnd.Next(1, 10); 
+    }
+    return rl_array; 
 }
 
-ConvertToBinary(45); 
+void GetArrayCopy(int[] array)
+{
+    int[] answer = new int[array.Length]; 
+
+    Write("Оригинальный: "); 
+
+    foreach(int e in array)
+    {
+        Write($"{e} "); 
+    }
+
+    WriteLine(); 
+
+    for(int i = 0; i < array.Length; i++) 
+    {
+        answer[i] = array[i]; 
+    }
+
+    Write("Скопированный: "); 
+
+    foreach(int e in answer)
+    {
+        Write($"{e} "); 
+    }
+}
+
+
+int[] array = GetArray(5); 
+GetArrayCopy(array); 
