@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW6Task43")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c08c9be1b899fb9469ae3dfee6616b3e1eb183a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30fc61b8b8f8593cdc7c33c60d0a3575fd8bd8c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW6Task43")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW6Task43")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
