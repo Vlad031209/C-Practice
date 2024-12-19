@@ -1,7 +1,7 @@
 ﻿using System;
 using static System.Console;
 
-Clear; 
+Clear(); 
 
 int Fact(int N)
 {
