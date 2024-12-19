@@ -3,27 +3,74 @@ using static System.Console;
 
 Clear(); 
 
-void GetArray(int columns, int rows)
-{
-    int[] array = new int[columns * rows]; 
-    Random rnd  = new Random(); 
-    for(int i = 0; i < columns * rows; i++)
-    {
-        array[i] = rnd.Next(1, 10); 
-    }
+Write("Введите размер массива через пробел: "); 
+string[] nums = ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries); 
+int[,] array = GetArray(int.Parse(nums[0]), int.Parse(nums[1])); 
 
-    int count = 0; 
-    foreach(int e in array)
+
+int[,] GetArray(int rows, int columns)
+{
+    int[,] array = new int[rows, columns];  
+    Random rnd = new Random(); 
+    for(int i = 0; i < rows; i++)
     {
-        if(count % columns == 0)
+        for(int j = 0; j < columns; j++)
         {
-            WriteLine(); 
-            Write($"{e} "); 
+            array[i, j] = rnd.Next(0, 10); 
         }
-        else
+    }
+    return array; 
+}
+
+int[,] CheckTheArray(int[,] array)
+{
+    for(int i = 0; i < array.GetLength(0); i++)
+    {
+        for(int j = 0; j < array.GetLength(1); j++)
         {
-            Write($"{e} ");
+            if((i % 2 == 0 & j % 2 == 0) && (i != 0 & j != 0)) array[i, j] = array[i, j] * array[i, j]; 
+            else continue; 
         }
-        count++; 
+    }
+    return array; 
+}
+
+int[,] ShowTheDifference(int[,] array)
+{
+    int[,] show_array = new int[array.GetLength(0), array.GetLength(1)]; 
+    for(int i = 0; i < array.GetLength(0); i++)
+    {
+        for(int j = 0; j < array.GetLength(1); j++)
+        {
+            if((i % 2 == 0 & j % 2 == 0) && (i != 0 & j != 0))
+            {
+                show_array[i, j] = array[i, j]; 
+            }  
+            else show_array[i, j] = 0;  
+        }
+    }
+    return show_array; 
+}
+
+void PrintArray(int[,] array)
+{
+    for(int i = 0; i < array.GetLength(0); i++)
+    {
+        for(int j = 0; j < array.GetLength(1); j++)
+        {
+            Write($"{array[i, j]} "); 
+        }
+        WriteLine(); 
     }
 }
+
+WriteLine("Исходный массив: "); 
+PrintArray(array); 
+WriteLine(); 
+WriteLine(); 
+WriteLine("Изменённый массив: ");
+PrintArray(CheckTheArray(array)); 
+WriteLine(); 
+WriteLine(); 
+WriteLine("Массив, где разница показанна наглядно: ");
+PrintArray(ShowTheDifference(array)); 
