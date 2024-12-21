@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW3Task")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68d60fcce3262d5778ad3eacb7a5e52b4e3b44ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c8d472f1c7ba1d9f30b3da23969c46acb12a911")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW3Task")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW3Task")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
