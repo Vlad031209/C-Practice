@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW4Task25")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c8d472f1c7ba1d9f30b3da23969c46acb12a911")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf8b76ab6ed124c2e759e00ec9de1d35ebc8135a")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW4Task25")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW4Task25")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
